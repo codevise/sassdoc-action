@@ -1,0 +1,14 @@
+{
+  "name": "sassdoc-action",
+  "version": "1.0.0",
+  "description": "GitHub action to generate SassDoc documentation.",
+  "author": "Codevise Solutions GmbH <info@codevise.de>",
+  "license": "MIT",
+  "repository": "https://github.com/codevise/documentation-js-action",
+  "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/exec": "^1.0.3",
+    "sassdoc": "^2.7.1"
+  },
+  "devDependencies": {}
+}

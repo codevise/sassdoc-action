@@ -5,10 +5,12 @@ async function run() {
   try {
     const args = [];
 
-    const branch = process.env['GITHUB_REF'].replace('refs/heads/', '');
+    const ref = process.env['GITHUB_REF']
+                       .replace('refs/heads/', '')
+                       .replace('refs/tags/', '');;
 
     const input = core.getInput('input');
-    const output = core.getInput('output').replace('<branch>', branch);
+    const output = core.getInput('output').replace('<ref>', ref);
 
     args.push(input)
     args.push('--dest')

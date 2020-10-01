@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "https://github.com/codevise/documentation-js-action",
   "dependencies": {
-    "@actions/core": "^1.2.1",
+    "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.3",
     "sassdoc": "^2.7.1"
   },
